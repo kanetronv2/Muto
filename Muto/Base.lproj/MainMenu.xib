@@ -24,7 +24,7 @@
                 <menuItem title="Quit" id="eet-yK-Ngm">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="quitClicked:" target="Voe-Tx-rLC" id="UMG-U4-1ZM"/>
+                        <action selector="quitClicked:" target="Voe-Tx-rLC" id="zzZ-oK-tgl"/>
                     </connections>
                 </menuItem>
             </items>
