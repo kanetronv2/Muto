@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C0D0ED41D35DEED00CABD2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D0ED31D35DEED00CABD2D /* AppDelegate.swift */; };
+		3C0D0ED61D35DEED00CABD2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0D0ED51D35DEED00CABD2D /* Assets.xcassets */; };
+		3C0D0ED91D35DEED00CABD2D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0D0ED71D35DEED00CABD2D /* MainMenu.xib */; };
+		3C0D0EE41D35DEED00CABD2D /* MutoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D0EE31D35DEED00CABD2D /* MutoTests.swift */; };
+		3C0D0EEF1D35DEEE00CABD2D /* MutoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D0EEE1D35DEEE00CABD2D /* MutoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C0D0EE01D35DEED00CABD2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C0D0EC81D35DEED00CABD2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C0D0ECF1D35DEED00CABD2D;
+			remoteInfo = Muto;
+		};
+		3C0D0EEB1D35DEEE00CABD2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C0D0EC81D35DEED00CABD2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C0D0ECF1D35DEED00CABD2D;
+			remoteInfo = Muto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C0D0ED01D35DEED00CABD2D /* Muto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0D0ED31D35DEED00CABD2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C0D0ED51D35DEED00CABD2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C0D0ED81D35DEED00CABD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3C0D0EDA1D35DEED00CABD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0D0EDF1D35DEED00CABD2D /* MutoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0D0EE31D35DEED00CABD2D /* MutoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutoTests.swift; sourceTree = "<group>"; };
+		3C0D0EE51D35DEED00CABD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0D0EEA1D35DEEE00CABD2D /* MutoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0D0EEE1D35DEEE00CABD2D /* MutoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutoUITests.swift; sourceTree = "<group>"; };
+		3C0D0EF01D35DEEE00CABD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C0D0ECD1D35DEED00CABD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0D0EDC1D35DEED00CABD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0D0EE71D35DEEE00CABD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C0D0EC71D35DEED00CABD2D = {
+			isa = PBXGroup;
+			children = (
+				3C0D0ED21D35DEED00CABD2D /* Muto */,
+				3C0D0EE21D35DEED00CABD2D /* MutoTests */,
+				3C0D0EED1D35DEEE00CABD2D /* MutoUITests */,
+				3C0D0ED11D35DEED00CABD2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C0D0ED11D35DEED00CABD2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C0D0ED01D35DEED00CABD2D /* Muto.app */,
+				3C0D0EDF1D35DEED00CABD2D /* MutoTests.xctest */,
+				3C0D0EEA1D35DEEE00CABD2D /* MutoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C0D0ED21D35DEED00CABD2D /* Muto */ = {
+			isa = PBXGroup;
+			children = (
+				3C0D0ED31D35DEED00CABD2D /* AppDelegate.swift */,
+				3C0D0ED51D35DEED00CABD2D /* Assets.xcassets */,
+				3C0D0ED71D35DEED00CABD2D /* MainMenu.xib */,
+				3C0D0EDA1D35DEED00CABD2D /* Info.plist */,
+			);
+			path = Muto;
+			sourceTree = "<group>";
+		};
+		3C0D0EE21D35DEED00CABD2D /* MutoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C0D0EE31D35DEED00CABD2D /* MutoTests.swift */,
+				3C0D0EE51D35DEED00CABD2D /* Info.plist */,
+			);
+			path = MutoTests;
+			sourceTree = "<group>";
+		};
+		3C0D0EED1D35DEEE00CABD2D /* MutoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C0D0EEE1D35DEEE00CABD2D /* MutoUITests.swift */,
+				3C0D0EF01D35DEEE00CABD2D /* Info.plist */,
+			);
+			path = MutoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C0D0ECF1D35DEED00CABD2D /* Muto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0D0EF31D35DEEE00CABD2D /* Build configuration list for PBXNativeTarget "Muto" */;
+			buildPhases = (
+				3C0D0ECC1D35DEED00CABD2D /* Sources */,
+				3C0D0ECD1D35DEED00CABD2D /* Frameworks */,
+				3C0D0ECE1D35DEED00CABD2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muto;
+			productName = Muto;
+			productReference = 3C0D0ED01D35DEED00CABD2D /* Muto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C0D0EDE1D35DEED00CABD2D /* MutoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0D0EF61D35DEEE00CABD2D /* Build configuration list for PBXNativeTarget "MutoTests" */;
+			buildPhases = (
+				3C0D0EDB1D35DEED00CABD2D /* Sources */,
+				3C0D0EDC1D35DEED00CABD2D /* Frameworks */,
+				3C0D0EDD1D35DEED00CABD2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C0D0EE11D35DEED00CABD2D /* PBXTargetDependency */,
+			);
+			name = MutoTests;
+			productName = MutoTests;
+			productReference = 3C0D0EDF1D35DEED00CABD2D /* MutoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C0D0EE91D35DEEE00CABD2D /* MutoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0D0EF91D35DEEE00CABD2D /* Build configuration list for PBXNativeTarget "MutoUITests" */;
+			buildPhases = (
+				3C0D0EE61D35DEEE00CABD2D /* Sources */,
+				3C0D0EE71D35DEEE00CABD2D /* Frameworks */,
+				3C0D0EE81D35DEEE00CABD2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C0D0EEC1D35DEEE00CABD2D /* PBXTargetDependency */,
+			);
+			name = MutoUITests;
+			productName = MutoUITests;
+			productReference = 3C0D0EEA1D35DEEE00CABD2D /* MutoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C0D0EC81D35DEED00CABD2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kane Hsieh";
+				TargetAttributes = {
+					3C0D0ECF1D35DEED00CABD2D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3C0D0EDE1D35DEED00CABD2D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3C0D0ECF1D35DEED00CABD2D;
+					};
+					3C0D0EE91D35DEEE00CABD2D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3C0D0ECF1D35DEED00CABD2D;
+					};
+				};
+			};
+			buildConfigurationList = 3C0D0ECB1D35DEED00CABD2D /* Build configuration list for PBXProject "Muto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C0D0EC71D35DEED00CABD2D;
+			productRefGroup = 3C0D0ED11D35DEED00CABD2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C0D0ECF1D35DEED00CABD2D /* Muto */,
+				3C0D0EDE1D35DEED00CABD2D /* MutoTests */,
+				3C0D0EE91D35DEEE00CABD2D /* MutoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C0D0ECE1D35DEED00CABD2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0D0ED61D35DEED00CABD2D /* Assets.xcassets in Resources */,
+				3C0D0ED91D35DEED00CABD2D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0D0EDD1D35DEED00CABD2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0D0EE81D35DEEE00CABD2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C0D0ECC1D35DEED00CABD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0D0ED41D35DEED00CABD2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0D0EDB1D35DEED00CABD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0D0EE41D35DEED00CABD2D /* MutoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0D0EE61D35DEEE00CABD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0D0EEF1D35DEEE00CABD2D /* MutoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C0D0EE11D35DEED00CABD2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C0D0ECF1D35DEED00CABD2D /* Muto */;
+			targetProxy = 3C0D0EE01D35DEED00CABD2D /* PBXContainerItemProxy */;
+		};
+		3C0D0EEC1D35DEEE00CABD2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C0D0ECF1D35DEED00CABD2D /* Muto */;
+			targetProxy = 3C0D0EEB1D35DEEE00CABD2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C0D0ED71D35DEED00CABD2D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C0D0ED81D35DEED00CABD2D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C0D0EF11D35DEEE00CABD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C0D0EF21D35DEEE00CABD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3C0D0EF41D35DEEE00CABD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Muto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kane.Muto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C0D0EF51D35DEEE00CABD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Muto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kane.Muto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C0D0EF71D35DEEE00CABD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MutoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kane.MutoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muto.app/Contents/MacOS/Muto";
+			};
+			name = Debug;
+		};
+		3C0D0EF81D35DEEE00CABD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MutoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kane.MutoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muto.app/Contents/MacOS/Muto";
+			};
+			name = Release;
+		};
+		3C0D0EFA1D35DEEE00CABD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MutoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kane.MutoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Muto;
+			};
+			name = Debug;
+		};
+		3C0D0EFB1D35DEEE00CABD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MutoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kane.MutoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Muto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C0D0ECB1D35DEED00CABD2D /* Build configuration list for PBXProject "Muto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0D0EF11D35DEEE00CABD2D /* Debug */,
+				3C0D0EF21D35DEEE00CABD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C0D0EF31D35DEEE00CABD2D /* Build configuration list for PBXNativeTarget "Muto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0D0EF41D35DEEE00CABD2D /* Debug */,
+				3C0D0EF51D35DEEE00CABD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C0D0EF61D35DEEE00CABD2D /* Build configuration list for PBXNativeTarget "MutoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0D0EF71D35DEEE00CABD2D /* Debug */,
+				3C0D0EF81D35DEEE00CABD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C0D0EF91D35DEEE00CABD2D /* Build configuration list for PBXNativeTarget "MutoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0D0EFA1D35DEEE00CABD2D /* Debug */,
+				3C0D0EFB1D35DEEE00CABD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C0D0EC81D35DEED00CABD2D /* Project object */;
+}
