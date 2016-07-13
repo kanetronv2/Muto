@@ -13,14 +13,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     // using http://footle.org/WeatherBar/
 
-    @IBOutlet weak var window: NSWindow!
+    @IBOutlet weak var statusMenu: NSMenu!
     
     let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSVariableStatusItemLength)
+    
+    
+    // quits
     
     @IBAction func quitClicked(sender: AnyObject) {
         NSApplication.sharedApplication().terminate(self)
     }
-
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application

@@ -15,7 +15,7 @@
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Muto" customModuleProvider="target">
             <connections>
                 <outlet property="quitClicked" destination="eet-yK-Ngm" id="OPZ-mb-B6p"/>
-                <outlet property="statusMenu" destination="aus-k8-C7U" id="zq1-Gh-A1n"/>
+                <outlet property="statusMenu" destination="aus-k8-C7U" id="BJC-gD-iUP"/>
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
