@@ -10,13 +10,24 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
+    
+    // using http://footle.org/WeatherBar/
 
     @IBOutlet weak var window: NSWindow!
+    
+    let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSVariableStatusItemLength)
+    
+    @IBAction func quitClicked(sender: AnyObject) {
+        NSApplication.sharedApplication().terminate(self)
+    }
 
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
         // Hello World
+        
+        statusItem.title = "Muto"
+        statusItem.menu = statusMenu
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
